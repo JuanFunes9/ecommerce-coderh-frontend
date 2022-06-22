@@ -18,7 +18,7 @@ const App = () => {
     <>
       <Navbar />
       <main>
-        <ProductsGrid products={ products }/>
+        <ProductsGrid products={ products } setProducts={ setProducts } />
       </main>
     </>
   )
